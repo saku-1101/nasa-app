@@ -5,6 +5,10 @@ import Nasa from "./components/Nasa.vue";
 </script>
 
 <template>
+<div class="app-wrapper">
+
+  <Nasa />
+<div style="width:100vw; height:100vh;">
   <header>
     <img
       alt="Vue logo"
@@ -25,10 +29,15 @@ import Nasa from "./components/Nasa.vue";
   </header>
 
   <RouterView />
-  <Nasa />
+  </div>
+</div>
 </template>
 
 <style scoped>
+.app-wrapper{
+  display: flex;
+  flex-direction: column;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;

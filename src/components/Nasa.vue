@@ -4,13 +4,10 @@
       <img src="" alt="">
     </div>
     <div class="title">
-      <h1>Test</h1>
+      <h1>Nasa Page</h1>
     </div>
     <div class="discription">
-      <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
-    </div>
-    <div class="author">
-      <h3>Sakura Adachi</h3>
+      <p>For the means of practice using REST API and creating & utilising my own docker image.</p>
     </div>
     <div class="button">
       <button type="button" id="get-space" @click="fetchAPIData">Get a Space!!</button>
@@ -62,3 +59,18 @@ export default defineComponent({
 })
 </script>
 
+<style>
+#nasa-component{
+  width:100vw;
+  height:100vh;
+}
+h1 {
+  font-weight: 500;
+  font-size: 2.6rem;
+  top: -10px;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+</style>
