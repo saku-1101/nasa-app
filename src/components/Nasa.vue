@@ -10,7 +10,7 @@
       <p>For the means of practice using REST API and creating & utilising my own docker image.</p>
     </div>
     <div class="button">
-      <button type="button" id="get-space" @click="fetchAPIData">Get a Space!!</button>
+      <ui-fab extended id="get-space" @click="fetchAPIData">Get a Space!!</ui-fab>
     </div>
     <div class="space-photo">
       <img :src= result.url>
